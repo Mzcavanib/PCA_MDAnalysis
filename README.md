@@ -12,7 +12,7 @@ Features
 - Integrates **PCA contributions** from an external CSV file.
 - Exports the annotated network in **GraphML format** for visualization in tools like **Gephi** or **Cytoscape**.
 
-For visualization of the residue contribution to PCA there is another program called 'network_pca.py'.
+For visualization of the residue contribution to PCA there is another program called `network_pca.py`.
 
 Requirements
 Make sure you have the following Python packages installed:
@@ -21,11 +21,11 @@ Make sure you have the following Python packages installed:
 - [NetworkX](https://networkx.org/)
 - [Pandas](https://pandas.pydata.org/)
 
-Then:
+Instructions:
 
-- Execute 'pca_csv.py' to generate the PCA contributions on '.csv' format.
-- Execute 'network_pca.py' to generate the residue contact network with PCA contributions.
-- Execute 'pca_res_analysis.py' to visualize the PCA contributions on PC1 and PC2.
+- Execute `pca_csv.py` to generate the PCA contributions on '.csv' format.
+- Execute `network_pca.py` to generate the residue contact network with PCA contributions.
+- Execute `pca_res_analysis.py` to visualize the PCA contributions on PC1 and PC2.
 
 
 
