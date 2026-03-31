@@ -34,5 +34,5 @@ for _, row in df.iterrows():
 
 
 nx.write_graphml(G, "residue_network_with_pca.graphml")
-print("Archivo 'residue_network_with_pca.graphml' generado.")
+print("File 'residue_network_with_pca.graphml'.")
 
